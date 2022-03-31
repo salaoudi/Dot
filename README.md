@@ -1,7 +1,18 @@
 # Dot
 Dot is a movie details app, users can view movies details, and add them to bookmarks. TheMovieDB API. See screenshots. 
 
-
+**TECH USED**
+  - THE MOVEIE DATA BASE API 
+  - SWIFT 
+  - SWIFTUI 
+  - SWIFT GENERICS
+  - USERDEFALUTS 
+ 
+**FEATURES **
+  - VIEW MOST POPULAR MOVIES
+  - SEE MOVIES DETAILS IN REAL TIME
+  - ADD MOVIES TO FAVROITES 
+  
 
 
 
