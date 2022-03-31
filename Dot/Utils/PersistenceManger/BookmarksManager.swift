@@ -22,6 +22,7 @@ class StorageManager: ObservableObject {
 }
 
 //Stores Movies For Offline Use in Userdefualts.
+//SETTING UP A GENERIC TYPE TO STORE MOVIE TO BOOKMARKS
 @propertyWrapper
 public struct UserDefualtsStorage<T: Codable> {
     let key: String

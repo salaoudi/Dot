@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-// ALL THEME COLORS 
+// ALL THEME COLORS
+// TODO: DONE!
 let ThemeColors: [ThemeModal] =
     [
         ThemeModal(id: 0, Color: Color.pink),

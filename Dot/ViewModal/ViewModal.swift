@@ -9,14 +9,12 @@ import Foundation
 import Combine
 import SwiftUI
 
-
+//THEMOVIEDB API CALL AND FETCH REQUEST
 class ViewModal: ObservableObject {
     
     
     @Published var moviesDB =  [MoviesRes]()
-    
-    
-    
+
     
     init() {
         let url = "https://api.themoviedb.org/3/movie/popular?api_key=ac8cfedb37ce6a20dcf408630a7fe1e5&language=en-US&page=1"

@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-//Loading View
+//SIMPLE LOADING VIEW WHEN THE APP STARTS
 struct LoadingView: View {
+	
     @ObservedObject var themeStore = ThemeManager()
     let allColors: [ThemeModal] = ThemeColors
     

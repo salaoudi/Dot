@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84324BAF27F569A3009B83BF /* ThemeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324BAE27F569A3009B83BF /* ThemeModal.swift */; };
 		84582AFD277A59890010EB86 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84582AFC277A59890010EB86 /* SDWebImageSwiftUI */; };
 		84582B0A277BA4730010EB86 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84582B09277BA4720010EB86 /* BookmarksView.swift */; };
 		84582B0D277BA9770010EB86 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84582B0C277BA9770010EB86 /* MovieRow.swift */; };
@@ -20,7 +21,6 @@
 		84AECB0A27979C1F002F1568 /* AppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AECB0927979C1F002F1568 /* AppHeader.swift */; };
 		84AECB0D27979C58002F1568 /* MoviesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AECB0C27979C58002F1568 /* MoviesHeader.swift */; };
 		84AECB1027979C6A002F1568 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AECB0F27979C6A002F1568 /* LoadingView.swift */; };
-		84AECB142797A2A0002F1568 /* ThemeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AECB132797A2A0002F1568 /* ThemeModal.swift */; };
 		84AECB182797A31B002F1568 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AECB172797A31B002F1568 /* ThemeColors.swift */; };
 		84AECB1B2797A435002F1568 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AECB1A2797A435002F1568 /* ThemeManager.swift */; };
 		84CB59632790B4BB00AFC1D0 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB59622790B4BB00AFC1D0 /* MovieDetails.swift */; };
@@ -29,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84324BAE27F569A3009B83BF /* ThemeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModal.swift; sourceTree = "<group>"; };
 		84582B09277BA4720010EB86 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
 		84582B0C277BA9770010EB86 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
 		8496EADC2778CC4A00730260 /* Dot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +44,6 @@
 		84AECB0927979C1F002F1568 /* AppHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeader.swift; sourceTree = "<group>"; };
 		84AECB0C27979C58002F1568 /* MoviesHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesHeader.swift; sourceTree = "<group>"; };
 		84AECB0F27979C6A002F1568 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		84AECB132797A2A0002F1568 /* ThemeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModal.swift; sourceTree = "<group>"; };
 		84AECB172797A31B002F1568 /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
 		84AECB1A2797A435002F1568 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		84CB59622790B4BB00AFC1D0 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
@@ -153,9 +153,9 @@
 		84AECB122797A247002F1568 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				84AECB132797A2A0002F1568 /* ThemeModal.swift */,
 				84AECB172797A31B002F1568 /* ThemeColors.swift */,
 				84AECB1A2797A435002F1568 /* ThemeManager.swift */,
+				84324BAE27F569A3009B83BF /* ThemeModal.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -253,7 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8496EAFE2778F74600730260 /* ViewModal.swift in Sources */,
-				84AECB142797A2A0002F1568 /* ThemeModal.swift in Sources */,
 				84582B0A277BA4730010EB86 /* BookmarksView.swift in Sources */,
 				8496EB012778F96200730260 /* HomeView.swift in Sources */,
 				84F8E9ED278B4CF5002DED5C /* BookmarksManager.swift in Sources */,
@@ -264,6 +263,7 @@
 				8496EAE22778CC4B00730260 /* ContentView.swift in Sources */,
 				8496EAE02778CC4B00730260 /* DotApp.swift in Sources */,
 				84AECB1B2797A435002F1568 /* ThemeManager.swift in Sources */,
+				84324BAF27F569A3009B83BF /* ThemeModal.swift in Sources */,
 				84582B0D277BA9770010EB86 /* MovieRow.swift in Sources */,
 				84AECB0A27979C1F002F1568 /* AppHeader.swift in Sources */,
 				84AECB1027979C6A002F1568 /* LoadingView.swift in Sources */,

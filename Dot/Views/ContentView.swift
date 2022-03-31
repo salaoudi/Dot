@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+// MIAN TABBAR AND CONTENT VIEW
 struct ContentView: View {
     
     @State var currentTab = 0

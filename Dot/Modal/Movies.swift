@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-
+//MAIN MOVIES MODAL 
 struct Movies: Decodable {
     var results: [MoviesRes]
 }

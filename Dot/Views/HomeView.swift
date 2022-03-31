@@ -5,6 +5,10 @@
 //  Created by Zayn on 12/26/21.
 //
 
+
+
+//MAIN MOVIES HEAD VIEW
+
 import SwiftUI
 import SDWebImageSwiftUI
 

@@ -8,6 +8,8 @@
 import SwiftUI
 import SDWebImageSwiftUI
 
+
+//BOOKMARKS VIEW 
 struct BookmarksView: View {
     
     @EnvironmentObject var manager: StorageManager

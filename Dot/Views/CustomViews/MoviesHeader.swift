@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-//MOVIES HEADERS
+//MOVIES TOP HEADERS 
 struct MoviesHeader: View {
     
     var MoviesHeader = ""

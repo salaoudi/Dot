@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SettingsView: View {
     
+	
+	//APP SETTINGS VIEW 
     @StateObject var themeStore = ThemeManager()
     let allColors: [ThemeModal] = ThemeColors
     

@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import SDWebImageSwiftUI
 
+//MOVIE ROW VIEW
 
 struct MovieRow: View {
     

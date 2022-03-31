@@ -8,6 +8,7 @@
 import SwiftUI
 import SDWebImageSwiftUI
 
+//MOVIES DETAILS SHOW UPDATED AND CURRENT MOVIE DETAILS
 struct MovieDetails: View {
     
     @ObservedObject var themeStore = ThemeManager()

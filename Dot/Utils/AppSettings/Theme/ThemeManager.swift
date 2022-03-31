@@ -5,6 +5,9 @@
 //  Created by Zayn on 1/19/22.
 //
 
+
+//THEME SETTINGS
+//SETTING FORKEY INTO USERDEFAULTS
 import SwiftUI
 
 class ThemeManager: ObservableObject {
